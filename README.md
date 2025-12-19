@@ -18,6 +18,7 @@ The objective of this task is to understand how network traffic flows and how pa
 ## Project Structure
 Network_Sniffer/
 └── sniffer.py
+
 ---
 
 ## Requirements
@@ -28,3 +29,10 @@ Network_Sniffer/
 Install Scapy:
 ```bash
 pip install scapy
+
+---
+
+## How To Run
+- Navigate to the project folder
+- Run the program with administrator privileges
+- Generate network traffic by browsing the internet 
