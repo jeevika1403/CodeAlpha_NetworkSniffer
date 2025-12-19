@@ -16,6 +16,8 @@ The objective of this task is to understand how network traffic flows and how pa
 ---
 
 ## Project Structure
+Network_Sniffer/
+└── sniffer.py
 ---
 
 ## Requirements
