@@ -16,8 +16,8 @@ The objective of this task is to understand how network traffic flows and how pa
 ---
 
 ## Project Structure
-Network_Sniffer/
-└── sniffer.py
+Network_Sniffer/  
+└── sniffer.py  
 
 ---
 
@@ -26,13 +26,36 @@ Network_Sniffer/
 - Scapy library
 - Administrator/root privileges (required for packet capture)
 
-Install Scapy:
-```bash
+Install Scapy:  
 pip install scapy
 
 ---
 
-## How To Run
-- Navigate to the project folder
-- Run the program with administrator privileges
-- Generate network traffic by browsing the internet 
+## How to Run
+Navigate to the project folder:  
+cd Network_Sniffer  
+
+Run the program with administrator privileges:  
+sudo python3 sniffer.py  
+
+Generate network traffic by browsing the internet or using:  
+ping google.com  
+
+---
+
+## Output
+The program displays the following details for captured packets:
+- Source IP address
+- Destination IP address
+- Protocol type (TCP / UDP / ICMP)
+- Packet payload
+
+---
+
+## Learning Outcomes
+- Understanding packet capturing
+- Basics of network protocols
+- Practical exposure to Python in cybersecurity
+- Introduction to network traffic analysis
+
+---
